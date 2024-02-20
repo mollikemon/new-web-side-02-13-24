@@ -1,0 +1,129 @@
+body{
+   margin: 0px;
+}
+.flix{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   background-color: #E7E7E7;
+   color: white;
+
+}
+.div-1{
+    font-size: 29px;
+    color: blue;
+    margin-left: 25px;
+}
+.div-2 a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+/* ..............hader sas ............ */
+
+
+/* ............////////////........... */
+
+.div3{
+    background-color: rgb(251, 251, 227);
+   margin-left: 200px;
+    padding-top: 35px;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+.color1{
+    color: rgb(210, 20, 220);
+
+}
+.div4{
+    margin-left: 50px;
+}
+.div4 h1{
+    font-size: 30px;
+}
+.div4 h3{
+    font-size:20px;
+}
+.button1{
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+} 
+.button1:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #edaeae,
+      #ff7300,
+      #102ed3,
+      #bcceb6,
+      #1714d1,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  @keyframes glowing-button-85 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+.img-1{
+    height: 400px;
+    margin-right: 160px;
+}
+/* .............////////////////........... */
+
+
+
+/* ..........................futer suro.................................... */
+.div5{
+    background-color: black;
+    color: white;
+    display: flex;
+   justify-content: space-around;
+}
+.div6{
+    margin-left: 240px;
+}
+.div6 h1{
+    margin-left: 19px;
+}
+.div7{
+    margin-right:150px;
+}
+.div7 h1{
+    margin-left: 25px;
+}
+/* ..........................futer sas.................................... */
