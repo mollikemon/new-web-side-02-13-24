@@ -20,6 +20,42 @@ body{
  }
  /* ..............hader sas ............ */
 
+#Signup{
+    box-shadow: 1px 3px 3px 5px rgb(230, 223, 223);
+    margin-top: 50px;
+    border-radius: 8px;
+    border: 2px solid rgb(190, 188, 188);
+    height: 400px;
+    width: 450px;  
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 35%;
+}
+#tex{
+
+    outline: none;
+    border: 2px solid black;
+    height: 28px;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+#Alreasy{
+    margin-left: 100px; 
+}
+a{
+    text-decoration: none;
+}
+#button-Sing-Up{
+    padding: 10px 28px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color:aqua;
+    border-color:aqua;
+    color: black;
+    font-size: 20px;
+}
 
  
 /* ..........................futer suro.................................... */

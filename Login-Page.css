@@ -19,11 +19,54 @@ body{
      margin-right: 20px;
  }
  /* ..............hader sas ............ */
+.div111{
+    margin-top: 50px;
+    text-align: center;
+    border: 2px solid rgb(163, 160, 160);
+    height: 282px;
+    width: 29%;
+    margin-left: 36%;
+    border-radius: 12px;
+    box-shadow: 1px 3px 3px 5px rgb(230, 223, 223);
+    background-color: #FAFAFA;
+    color: rgb(0, 0, 0);
+}
+#number1{
+    outline: none;
+    border: 2px solid black;
+    height: 28px;
+    width: 250px;
+    border-radius: 5px;
+}
+#password1{
+    outline: none;
+    border: 2px solid black;
+    height: 28px;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 10px;
 
+}
+#div112{
+    text-decoration: none;
+    margin-left: 150px;
+    margin-top: 10px;
+}
 
+#button111{
+    padding: 10px 28px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color:aqua;
+    border-color:aqua;
+    color: black;
+    font-size: 20px;
+
+}
  
 /* ..........................futer suro.................................... */
 .div5{
+    margin-top:44.3px;
     background-color: black;
     color: white;
     display: flex;
